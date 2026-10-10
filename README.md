@@ -20,6 +20,10 @@ For the clearest responses across your entire agent session, install the compani
 
 * [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd): Enforces action first answers, suppresses filler, and keeps cognitive load low.
 
+Install via agent prompt:
+> "Install the i-have-adhd skill/plugin from https://github.com/ayghri/i-have-adhd, refer to the repo's AGENTS.md for instructions."
+
+Or via Skills CLI:
 ```bash
 npx skills add ayghri/i-have-adhd
 ```
@@ -28,23 +32,26 @@ npx skills add ayghri/i-have-adhd
 
 ### Installation
 
-Install via the Skills CLI in under two minutes:
+#### Option 1: Install via Agent Prompt
+Tell your AI coding agent:
+> "Install the github-repo-explainer skill from https://github.com/itszshinnn/github-repo-explainer."
 
+#### Option 2: Install via Skills CLI
 ```bash
-npx skills add <your-github-username>/github-repo-explainer --skill github-repo-explainer
+npx skills add itszshinnn/github-repo-explainer --skill github-repo-explainer
 ```
 
-#### Manual Installation
+#### Option 3: Manual Installation
 
 Clone directly into your agent skills path:
 
 * Claude Code:
   ```bash
-  git clone https://github.com/<your-github-username>/github-repo-explainer.git ~/.claude/skills/github-repo-explainer
+  git clone https://github.com/itszshinnn/github-repo-explainer.git ~/.claude/skills/github-repo-explainer
   ```
 * Codex:
   ```bash
-  git clone https://github.com/<your-github-username>/github-repo-explainer.git ~/.agents/skills/github-repo-explainer
+  git clone https://github.com/itszshinnn/github-repo-explainer.git ~/.agents/skills/github-repo-explainer
   ```
 
 ### Usage
