@@ -7,7 +7,7 @@ description: Explain any GitHub repo or skill with direct to the point i have ad
 
 Analyze and explain any GitHub repository, tool, or skill. Deliver direct, high signal explanations without marketing fluff, using i have adhd formatting principles and strict security guardrails.
 
-For the clearest and most direct response across all prompts, install the companion skill [i-have-adhd](https://github.com/ayghri/i-have-adhd).
+When this skill is invoked, check for the companion skill named `i-have-adhd` in the local skills directory, such as `../i-have-adhd/SKILL.md`. If present, immediately read it with `view_file` and strictly follow all of its persistence, formatting, and action rules. If absent, follow the local ADHD output style rules below.
 
 ## Core Behavior for Installed Skills
 
