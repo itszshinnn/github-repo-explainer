@@ -20,28 +20,27 @@ For the clearest responses across your entire agent session, install the compani
 
 * [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd): Enforces action first answers, suppresses filler, and keeps cognitive load low.
 
-Install via agent prompt:
-> "Install the i-have-adhd skill/plugin from https://github.com/ayghri/i-have-adhd, refer to the repo's AGENTS.md for instructions."
+Copy/paste into your CLI prompt:
 
-Or via Skills CLI:
-```bash
-npx skills add ayghri/i-have-adhd
+```text
+Install the i-have-adhd skill/plugin from https://github.com/ayghri/i-have-adhd, refer to the repo's AGENTS.md for instructions.
 ```
 
-## Quick Start
+## Install
 
-### Installation
+Copy/paste into your CLI prompt:
 
-#### Option 1: Install via Agent Prompt
-Tell your AI coding agent:
-> "Install the github-repo-explainer skill from https://github.com/itszshinnn/github-repo-explainer."
+```text
+Install the github-repo-explainer skill from https://github.com/itszshinnn/github-repo-explainer
+```
 
-#### Option 2: Install via Skills CLI
+### Skills CLI
+
 ```bash
 npx skills add itszshinnn/github-repo-explainer --skill github-repo-explainer
 ```
 
-#### Option 3: Manual Installation
+### Manual Installation
 
 Clone directly into your agent skills path:
 
