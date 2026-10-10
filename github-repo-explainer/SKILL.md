@@ -1,6 +1,7 @@
 ---
 name: github-repo-explainer
 description: Explain any GitHub repo or skill with direct to the point i have adhd formatting and strict security guardrails.
+license: MIT
 ---
 
 # GitHub Repo Explainer
@@ -46,3 +47,7 @@ Always structure the explanation using these sections:
 * Security and Guardrails: Threat audit results, prompt injection risks, and secret checks.
 * Trade Offs: Resource costs, token usage, limitations, and maintenance drawbacks.
 * Next Action: Exactly one small step the user can take right now.
+
+## License
+
+MIT License. Copyright (c) 2026 itszshinnn.
